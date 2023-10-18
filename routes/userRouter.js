@@ -146,7 +146,8 @@ router.get("/data", async(req, res)=>{
             res
             .status(200)
             .send({
-                message:"Data fetched succesfully"
+                message:"Data fetched succesfully",
+                data
             })
         }else{
             res
